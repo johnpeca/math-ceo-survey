@@ -94,64 +94,64 @@ x = tech_s
 png("tech_s.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Technology use and proficiency",
-       ylab = NULL, positive.order = TRUE)
+       main = "Technology use and proficiency (youth)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = m_motiv_s
 png("m_motiv_s.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Math motivational beliefs",
-       ylab = NULL, positive.order = TRUE)
+       main = "Math motivational beliefs (youth)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = aut_s
 png("aut_s.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Student autonomy with learning strategies",
-       ylab = NULL, positive.order = TRUE)
+       main = "Student autonomy with learning strategies (youth)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = rel_s
 png("rel_s.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Relationships and sense of belonging",
-       ylab = NULL, positive.order = TRUE)
+       main = "Relationships and sense of belonging (youth)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = comp_s
 png("comp_s.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Content comprehension and proficiency",
-       ylab = NULL, positive.order = TRUE)
+       main = "Content comprehension and proficiency (youth)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = ped_str_s
 png("ped_str_s.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Pedagogical strategies",
-       ylab = NULL, positive.order = TRUE)
+       main = "Pedagogical strategies (youth)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = g_sup_s
 png("g_sup_s.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "General comfort and support within program",
-       ylab = NULL, positive.order = TRUE)
+       main = "General comfort and support within program (youth)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = m_sup_s
 png("m_sup_s.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Math comfort level",
-       ylab = NULL, positive.order = TRUE)
+       main = "Math comfort level (youth)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 ##############################
@@ -223,70 +223,70 @@ x = rel_m
 png("rel_m.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Relationships and sense of belonging",
-       ylab = NULL, positive.order = TRUE)
+       main = "Relationships and sense of belonging (mentor)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = teach_m
 png("teach_m.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Teaching growth",
-       ylab = NULL, positive.order = TRUE)
+       main = "Teaching growth (mentor)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = career_m
 png("career_m.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Future careers",
-       ylab = NULL, positive.order = TRUE)
+       main = "Future careers (mentor)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = prog_assess_m
 png("prog_assess_m.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Program assessment",
-       ylab = NULL, positive.order = TRUE)
+       main = "Program assessment (mentor)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = m_motiv_m
 png("m_motiv_m.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Math motivational beliefs",
-       ylab = NULL, positive.order = TRUE)
+       main = "Math motivational beliefs (mentor)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = action_m
 png("action_m.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = action_m, as.percent = "noRightAxis", 
-       main = "Contributions to broader community",
-       ylab = NULL, positive.order = TRUE)
+       main = "Contributions to broader community (mentor)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = empathy_m
 png("empathy_m.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Empathy",
-       ylab = NULL, positive.order = TRUE)
+       main = "Empathy (mentor)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = tech_m
 png("tech_m.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = "Technology use and proficiency",
-       ylab = NULL, positive.order = TRUE)
+       main = "Technology use and proficiency (mentor)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
 
 x = m_knowledge_m
 png("m_knowledge_m.png",
     width = w, height = disp_r(nrow(x)))
 likert(Question ~., data = x, as.percent = "noRightAxis", 
-       main = cat_m[9],
-       ylab = NULL, positive.order = TRUE)
+       main = "Math knowledge & teaching self-efficacy (mentor)",
+       ylab = NULL, xlab = NULL, positive.order = TRUE)
 dev.off()
